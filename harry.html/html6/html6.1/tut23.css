@@ -1,0 +1,100 @@
+/* Define the global or root variables */
+
+:root{
+    --primaryColor :green;
+    --backgroundColor :#F5EFE7;
+    --primaryAccentColor :black;
+    --secondaryColor: black;
+    --whiteColor:black;
+    --blackColor:#222222;
+    --primaryFont: 'Open Sans', sans-serif;
+    --cursiveFont: 'Pacifico', cursive;
+    --navbarHeight: 3rem;
+}
+
+/* Main CSS */
+body{
+    background-color:black;
+    color: white;
+    font-family: var(--primaryFont);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+a{
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+a:hover{
+    color: var(--primaryAccentColor);
+}
+.navigation{
+    background-color: var(--whiteColor);
+    height: var(--navbarHeight);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    filter: drop-shadow(0px 3px 4px grey);
+    margin-bottom: 5px;
+}
+
+.logo{
+    display: flex;
+    /* height: var(--navbarHeight); */
+    padding-left: 0px;
+    width: 12rem;
+    align-items: center;
+}
+
+.logoImage{
+    height: 2rem;
+    padding: 0px;
+    /* float: left; */
+}
+.menuItem{
+    margin: 10px 10px;
+}
+.menu{
+    flex-grow:2;
+    margin-left: 800px;
+}
+/* Banner */
+
+.banner{
+    display: flex;
+    height:450px;
+    background: linear-gradient(45deg,var(--secondaryColor),var(--primaryAccentColor));
+    filter: drop-shadow(0px 3px 4px grey); /* x,y,radius,color */
+    justify-content: space-around;
+    align-items: start;
+    padding: 10px;
+}
+
+.bannerLeft{
+    width: 40%;
+    margin-top: 25px;
+}
+
+.bannerright{
+    margin-top: 25px;
+}
+.bannerImage{
+    height:300px;
+    border-radius: 100%;
+}
+.title{
+    font-size: 3rem;
+    color: white;
+}
+
+.titleSpan{
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 5px 0px;
+    padding-left: 60px;
+}
+    .description{
+        margin: 30px;
+        line height: 2rem;
+    }
+    

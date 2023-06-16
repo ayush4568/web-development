@@ -1,0 +1,15 @@
+    img{
+        width: 120px;
+        height: 110px;
+        border-radius: 50%;
+    }
+    .second{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}
+.third{
+    position: sticky;
+    top: 50px;
+    left: 20px;
+}
